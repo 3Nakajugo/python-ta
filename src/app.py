@@ -3,7 +3,10 @@ import os
 
 
 def prime(s):
-    # your code goes here
+    if s > 2:
+        if s % 2 == 0:
+            return False
+    return True
 
 def solution(s):
     return prime(s)
